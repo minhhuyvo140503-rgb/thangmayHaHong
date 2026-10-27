@@ -91,7 +91,8 @@ export default function KienThuc() {
     }, []);
 
     return (
-        <div style={{ minHeight: "100vh", backgroundColor: "#ffffff", color: "#1f2937", fontFamily: "sans-serif" }}>
+        // Đã xóa bỏ `fontFamily: "sans-serif"` để đồng bộ phông chữ giống trang Dự án
+        <div style={{ minHeight: "100vh", backgroundColor: "#ffffff", color: "#1f2937" }}>
             <BannerKienThuc />
 
             <main style={{ maxWidth: "1200px", margin: "0 auto", padding: "40px 20px" }}>

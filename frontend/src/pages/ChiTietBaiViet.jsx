@@ -125,8 +125,7 @@ export default function ChiTietBaiViet() {
     }, [baiViet]);
 
     return (
-        <div style={{ minHeight: "100vh", backgroundColor: "#ffffff", color: "#1f2937", fontFamily: "sans-serif" }}>
-
+        <div style={{ minHeight: "100vh", backgroundColor: "#ffffff", color: "#1f2937" }}>
             <section
                 className="about-banner project-banner"
                 style={{
@@ -159,7 +158,6 @@ export default function ChiTietBaiViet() {
             </section>
 
             <main style={{ maxWidth: "1200px", margin: "0 auto", padding: "40px 20px" }}>
-
                 <header style={{ marginBottom: "32px", paddingBottom: "12px", borderBottom: "1px solid #e5e7eb" }}>
                     <h2 style={{ fontSize: "14px", fontWeight: "normal", color: "#4b5563", textTransform: "uppercase", letterSpacing: "0.5px" }}>
                         CHI TIẾT BÀI VIẾT: <span style={{ fontWeight: "bold", color: "#111827" }}>{baiViet.category}</span>
@@ -167,7 +165,6 @@ export default function ChiTietBaiViet() {
                 </header>
 
                 <div style={{ display: "flex", flexWrap: "wrap", gap: "40px" }}>
-
                     <article style={{ flex: "1 1 700px", display: "flex", flexDirection: "column", gap: "20px" }}>
                         <div style={{ width: "100%", aspectRatio: "16/9", overflow: "hidden", borderRadius: "4px", backgroundColor: "#f3f4f6" }}>
                             <img
@@ -219,7 +216,6 @@ export default function ChiTietBaiViet() {
                             </ul>
                         </div>
                     </aside>
-
                 </div>
             </main>
         </div>
